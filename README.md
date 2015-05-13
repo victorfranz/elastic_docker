@@ -15,10 +15,7 @@ This repository contains **Dockerfile** of [Elasticsearch](http://www.elasticsea
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://registry.hub.docker.com/u/dockerfile/elasticsearch/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull dockerfile/elasticsearch`
-
-   (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/elasticsearch" github.com/dockerfile/elasticsearch`)
-
+2. Build an image from Dockerfile: `docker build -t="dockerfile/elasticsearch" github.com/victorfranz/elasticsearch`)
 
 ### Usage
 
