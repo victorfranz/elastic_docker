@@ -3,10 +3,12 @@
 
 This repository contains **Dockerfile** of [Elasticsearch](http://www.elasticsearch.org/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dockerfile/elasticsearch/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
+* Included oracle-java8
+
 
 ### Base Docker Image
 
-* [dockerfile/java:oracle-java8](http://dockerfile.github.io/#/java)
+* [ubuntu](https://registry.hub.docker.com/u/library/ubuntu/)
 
 
 ### Installation
