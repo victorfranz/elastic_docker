@@ -29,6 +29,7 @@ RUN \
   mv /$ES_PKG_NAME /elasticsearch
 
 RUN /elasticsearch/bin/plugin --install lmenezes/elasticsearch-kopf
+RUN /elasticsearch/bin/plugin --install royrusso/elasticsearch-HQ
 
 # Define mountable directories.
 VOLUME ["/data"]
