@@ -15,7 +15,7 @@ This repository contains **Dockerfile** of [Elasticsearch](http://www.elasticsea
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Build an image from Dockerfile: `docker build -t="dockerfile/elasticsearch" github.com/victorfranz/elasticsearch`)
+2. Build an image from Dockerfile: `docker build -t="dockerfile/elasticsearch" github.com/victorfranz/elastic_docker`)
 
 ### Usage
 
